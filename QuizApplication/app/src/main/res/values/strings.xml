@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UoB Quiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="incorrect_toast">correct!</string>
+    <string name="correct_toast">InCorrect!</string>
+    <string name="my_sample_question_textView">Sample Question</string>
+    <string name="question_1">The University of Bradford received its Royal Charter in 1966, making it the 40th university
+    to be created inBritain.</string>
+    <string name="question_2">The  University  of  Bradford  has  been  rated  by  the  Guardian among the top five
+        universities in the UK for the effectiveness of its teaching and the value added to students.</string>
+    <string name="question_3">In 2013, 92.5% of University of Bradford Computing graduates found employment or went on to
+        further study within six months of graduating.</string>
+    <string name="question_4">The Department of Computing was one of the first in the UK to run an MSc course in
+        Computing back in 1967.</string>
+    <string name="question_5">In 2014, Bradford was named curry capital of the year for the fourth year in a row.</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="back_button">Back</string>
+    <string name="next_button">Next</string>
+    <string name="about_button">About</string>
+    <string name="help_button">Help</string>
+
+</resources>
