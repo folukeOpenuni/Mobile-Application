@@ -1,29 +1,53 @@
 package com.example.quizapplication;
-
 public class Answer {
-    private int question;
-    private boolean answer;
+    public static final String TABLE_NAME = "questions";
 
-    public Answer(int question, boolean answer) {
-        this.question = question;
-        this.answer = answer;
+    public static final String COLUMN_ID = "id";
+    public static final String COLUMN_QUESTION = "question";
+    public static final String COLUMN_ANSWER = "answer";
+
+    public int getId() {
+        return id;
     }
 
-    public int getQuestion() {
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getQuestion() {
         return question;
     }
 
-    public void setQuestion(int question) {
+    public void setQuestion(String question) {
         this.question = question;
     }
 
-    public boolean isAnswer() {
+    public String getAnswer() {
         return answer;
     }
 
-    public void setAnswer(boolean answer) {
+
+    // Create table SQL query
+    public static final String CREATE_TABLE =
+            "CREATE TABLE " + TABLE_NAME + "("
+                    + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
+                    + COLUMN_QUESTION + " TEXT,"
+                    + COLUMN_ANSWER + " TEXT"
+                    + ")";
+
+
+    public void setAnswer(String answer) {
         this.answer = answer;
     }
 
-    //int[] arrOfQuestions = {R.string.question_1, R.string.question_2, R.string.question_3, R.string.question_4, R.string.question_5 };
+    private int id;
+    private String question;
+    private String answer;
+
+
+    public Answer(int id, String question, String answer) {
+        this.id = id;
+        this.question = question;
+        this.answer = answer;
+    }
 }
