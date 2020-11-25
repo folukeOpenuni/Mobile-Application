@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "725833591352",
+    "firebase_url": "https://uni-coursework-296223.firebaseio.com",
+    "project_id": "uni-coursework-296223",
+    "storage_bucket": "uni-coursework-296223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725833591352:android:fafb9c410f1f35663ed4cd",
+        "android_client_info": {
+          "package_name": "com.thehoneycombworks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725833591352-fjj8um67fjhsa2c9apqlbbndldl4olfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGymkS-kgh65wV7Z_Aer17FdTS_t3_7I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725833591352-fjj8um67fjhsa2c9apqlbbndldl4olfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
