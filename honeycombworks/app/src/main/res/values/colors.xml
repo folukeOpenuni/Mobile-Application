@@ -5,10 +5,10 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="colorBolt">#6fcdd1</color>
     <color name="colorPlum">#bd3b6f</color>
-    <color name="colorMelberry">#674463</color>
-    <color name="colorSunflower">#f1b536</color>
-    <color name="colorIndigo">#182635</color>
-    <color name="colorAsh">#e6e6e6</color>
-    <color name="colorCream">#f4f4f2</color>
+    <color name="Melberry">#674463</color>
+    <color name="Sunflower">#f1b536</color>
+    <color name="Indigo">#182635</color>
+    <color name="Ash">#e6e6e6</color>
+    <color name="Cream">#f4f4f2</color>
 
 </resources>

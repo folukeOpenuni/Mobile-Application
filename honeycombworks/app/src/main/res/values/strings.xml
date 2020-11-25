@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">honeycombworks</string>
-    <string name="start_text">Know what you want to work on? Let\'s get started.
-        If you want to change a habit or learn something new you\'re more likely to be successful when you:
-    </string>
+    <string name="start_text">Know what you want to work on? Let\'s get started.</string>
+    <string name="txt">If you want to change a habit or learn something new you\'re more likely to be successful when you:</string>
     <string name="first_point">1. Write it down</string>
     <string name="second_point">2. Set time aside to work on the change you want to make</string>
     <string name="third_point">3. Identify what could stop you</string>
