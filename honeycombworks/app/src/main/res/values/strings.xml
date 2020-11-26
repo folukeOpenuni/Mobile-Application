@@ -8,4 +8,8 @@
     <string name="fourth_point">4. Plan what you\'ll do to stay on track</string>
     <string name="message_start">Click \'Start\' and we\'ll walk you through it. We\'ll also send you reminders over the next few weeks to keep you on track</string>
     <string name="complete_time">4 min to complete</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="submit">Submit</string>
 </resources>

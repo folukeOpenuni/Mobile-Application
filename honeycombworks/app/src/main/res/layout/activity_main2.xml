@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/q_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/lato_bold"/>
+
+    <TextView
+        android:id="@+id/q_txt_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/q_txt_view"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/lato_bold"/>
+
+    <EditText
+        android:id="@+id/editTxt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q_txt_view2"
+        android:hint="Enter your answer here"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:fontFamily="@font/lato_bold"
+        android:backgroundTint="@color/Bolt"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/previous_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        android:fontFamily="@font/lato_bold"
+        android:backgroundTint="@color/Bolt"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
