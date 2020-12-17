@@ -1,9 +1,10 @@
 package com.thehoneycombworks;
 
-public class User {
+public class UserAnswers {
     /**
      * all user attributes
      */
+    private  String id;
     private String firstName;
     private String lastName;
     private String email;
@@ -16,7 +17,38 @@ public class User {
     /**
      * empty user constructor
      */
-    public User() {
+    public UserAnswers() {
+    }
+    public UserAnswers(String firstName, String lastName, String email, String habitToWorkOn,
+                       String situationToTry, String dateToWorkOnHabit, String hindrance, String toDo) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.habitToWorkOn = habitToWorkOn;
+        this.situationToTry = situationToTry;
+        this.dateToWorkOnHabit = dateToWorkOnHabit;
+        this.hindrance = hindrance;
+        this.toDo = toDo;
+    }
+    public UserAnswers(String id, String firstName, String lastName, String email, String habitToWorkOn,
+                       String situationToTry, String dateToWorkOnHabit, String hindrance, String toDo) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.habitToWorkOn = habitToWorkOn;
+        this.situationToTry = situationToTry;
+        this.dateToWorkOnHabit = dateToWorkOnHabit;
+        this.hindrance = hindrance;
+        this.toDo = toDo;
+    }
+
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     /**
@@ -30,17 +62,6 @@ public class User {
      * @param hindrance What might stop the user or get in their way
      * @param toDo to dos to make sure there is no hindrance
      */
-    public User(String firstName, String lastName, String email, String habitToWorkOn,
-                String situationToTry, String dateToWorkOnHabit, String hindrance, String toDo) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.habitToWorkOn = habitToWorkOn;
-        this.situationToTry = situationToTry;
-        this.dateToWorkOnHabit = dateToWorkOnHabit;
-        this.hindrance = hindrance;
-        this.toDo = toDo;
-    }
 
     /**
      * method to get user first name

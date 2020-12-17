@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Bolt">#6fcdd1</color>
+    <color name="colorPlum">#bd3b6f</color>
+    <color name="Melberry">#674463</color>
+    <color name="Sunflower">#f1b536</color>
+    <color name="Indigo">#182635</color>
+    <color name="Ash">#e6e6e6</color>
+    <color name="Cream">#f4f4f2</color>
 </resources>

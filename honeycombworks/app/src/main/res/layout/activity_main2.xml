@@ -6,8 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/question_txt_view"
+        android:src="@drawable/ic_next"/>
     <TextView
-        android:id="@+id/q_txt_view"
+        android:id="@+id/question_txt_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -15,11 +21,11 @@
         android:fontFamily="@font/lato_bold"/>
 
     <TextView
-        android:id="@+id/q_txt_view2"
+        android:id="@+id/question_note_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:layout_below="@id/q_txt_view"
+        android:layout_below="@id/question_txt_view"
         android:layout_centerInParent="true"
         android:fontFamily="@font/lato_bold"/>
 
@@ -27,9 +33,30 @@
         android:id="@+id/editTxt_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/q_txt_view2"
+        android:layout_below="@+id/question_note_view"
         android:hint="Enter your answer here"
         android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/date_picker"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/editTxt_view"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/calender"
+        android:onClick="showDatePicker"
+        />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:fontFamily="@font/lato_bold"
+        android:backgroundTint="@color/Bolt"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTxt_view"
+        />
 
     <Button
         android:id="@+id/next_button"
@@ -48,6 +75,7 @@
         android:text="@string/previous"
         android:fontFamily="@font/lato_bold"
         android:backgroundTint="@color/Bolt"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/next_button"/>
 
 </RelativeLayout>

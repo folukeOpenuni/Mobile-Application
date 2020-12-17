@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">The Honeycomb Works</string>
+    <string name="start_text">Know what you want to work on? Let\'s get started.</string>
+    <string name="txt">If you want to change a habit or learn something new you\'re more likely to be successful when you:</string>
+    <string name="first_point">1. Write it down</string>
+    <string name="second_point">2. Set time aside to work on the change you want to make</string>
+    <string name="third_point">3. Identify what could stop you</string>
+    <string name="fourth_point">4. Plan what you\'ll do to stay on track</string>
+    <string name="message_start">Click \'Start\' and we\'ll walk you through it. We\'ll also send you reminders over the next few weeks to keep you on track</string>
+    <string name="complete_time">4 min to complete</string>
+    <string name="start">Start</string>
+    <string name="Q1">First name</string>
+    <string name="Q2">Last name</string>
+    <string name="Q3">Email*</string>
+    <string name="emailString">We will only use this information to send you reminders and follow ups to see how you got on</string>
+    <string name="Q4">What habit do you want to work on? Select from the drop down menu.</string>
+    <string name="Q5">What situations could I try this in? What opportunities to practice do I have? This question is required.*</string>
+    <!--    <string name="q5String">What is the specific thing you\'ll do differently?-->
+    <!--        The exact action you will take to make a change By being as specific as-->
+    <!--        possible and identifying those situations ahead of time\, you'\re more likely to commit to action</string>-->
+    <string name="Q6">When am I going to work on this habit?</string>
+    <string name="q6String">Set aside a date in the next week when you know you\'ll have an opportunity
+        to work on it and add to your calendar to make sure you stick to your commitment</string>
+    <string name="Q7">I\'ve planned what I\'m going to do and when.
+        What might stop me or get in my way? These could be practical things
+        (e.g important tasks) or other things (e.g. personal fears or concerns)This question is required. *</string>
+    <string name="q7String">This step is really important -
+        by considering the things that could stop you, you\'ll be able to come up
+        with strategies to make sure they don\'t </string>
+    <string name="Q8">What can I do to make sure these things don\'t stop me?
+        What can I do now or what can I tell myself to make sure I go ahead?This question is required. *</string>
+    <string name="q8String">People who plan how to deal with the things that could
+        stop them are much more likely to stick to their commitments</string>
+    <string name="submit">Submit</string>
 </resources>
