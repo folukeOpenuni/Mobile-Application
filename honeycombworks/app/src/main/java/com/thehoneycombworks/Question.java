@@ -1,14 +1,22 @@
 package com.thehoneycombworks;
 
+import java.util.ArrayList;
+
 public class Question {
     private String questionText = "";
     private String questionNote = "";
     private String answer = "";
+    private String type = "String";
+    private ArrayList<String> dropDownOption = new ArrayList<>();
+    Enum String, email, date, dropDown;
 
-    public Question(String questionText, String questionNote, String answer) {
+
+    public Question(String questionText, String questionNote, String answer, String type, ArrayList<String> dropDownOption) {
         this.questionText = questionText;
         this.questionNote = questionNote;
         this.answer = answer;
+        this.type = type;
+        this.dropDownOption = dropDownOption;
     }
 
     public Question() {
@@ -36,5 +44,20 @@ public class Question {
 
     public void setAnswer(String answer) {
         this.answer = answer;
+    }
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public ArrayList<String> getDropDownOption() {
+        return dropDownOption;
+    }
+
+    public void setDropDownOption(ArrayList<String> dropDownOption) {
+        this.dropDownOption = dropDownOption;
     }
 }

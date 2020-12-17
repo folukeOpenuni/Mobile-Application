@@ -14,4 +14,9 @@
     <string name="submit">Submit</string>
     <string name="datepicker">datePicker</string>
     <string name="date">Date:</string>
+    <string name="message">We\'ll email your commitment plan to you, send you reminders and follow up to see how you got on</string>
+    <string-array name="habit_to_workOn_array">
+        <item>I ask questions that reflect an understanding of the other person\'s perspective</item>
+        <item>I give careful consideration to views that conflict with my own, without becoming defensive or reactive</item>
+    </string-array>
 </resources>

@@ -1,51 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity2"
+    android:textAlignment="center"
+    android:id="@+id/relativeLayout">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_above="@id/question_txt_view"
-        android:src="@drawable/ic_next"/>
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/question_txt_view" />
+
     <TextView
         android:id="@+id/question_txt_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:layout_centerInParent="true"
-        android:fontFamily="@font/lato_bold"/>
+        android:fontFamily="@font/lato_bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <TextView
         android:id="@+id/question_note_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:layout_below="@id/question_txt_view"
+        android:fontFamily="@font/lato_bold"
+        app:layout_constraintTop_toBottomOf="@id/question_txt_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Spinner
+        android:id="@+id/drop_down_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:fontFamily="@font/lato_bold"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <EditText
         android:id="@+id/editTxt_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/question_note_view"
         android:hint="Enter your answer here"
-        android:layout_centerHorizontal="true"/>
+        app:layout_constraintTop_toBottomOf="@+id/question_note_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <ImageView
         android:id="@+id/date_picker"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_toRightOf="@+id/editTxt_view"
-        android:layout_marginTop="400dp"
-        android:src="@drawable/calender"
         android:onClick="showDatePicker"
-        />
+        android:src="@drawable/calender"
+        android:visibility="gone"
+        app:layout_constraintLeft_toRightOf="@id/editTxt_view"
+        app:layout_constraintTop_toTopOf="@id/editTxt_view"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/submit_btn"
@@ -54,9 +78,9 @@
         android:text="@string/submit"
         android:fontFamily="@font/lato_bold"
         android:backgroundTint="@color/Bolt"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/editTxt_view"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/editTxt_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/next_button"
@@ -65,8 +89,8 @@
         android:text="@string/next"
         android:fontFamily="@font/lato_bold"
         android:backgroundTint="@color/Bolt"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/previous_button"
@@ -75,7 +99,15 @@
         android:text="@string/previous"
         android:fontFamily="@font/lato_bold"
         android:backgroundTint="@color/Bolt"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@id/next_button"/>
+        app:layout_constraintRight_toLeftOf="@id/next_button"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/addEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
