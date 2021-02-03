@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">honeycombworks</string>
+    <string name="app_name">The Honeycomb Works</string>
     <string name="start_text">Know what you want to work on? Let\'s get started.</string>
     <string name="txt">If you want to change a habit or learn something new you\'re more likely to be successful when you:</string>
     <string name="first_point">1. Write it down</string>
@@ -14,9 +14,13 @@
     <string name="submit">Submit</string>
     <string name="datepicker">datePicker</string>
     <string name="date">Date:</string>
+    <string name="dateHint">click calender image for date</string>
+    <string name="trackLocation">Track My Location</string>
+    <string name="answerHint">Enter your answer here</string>
+    <string name="calenderHint">Click calender image</string>
+    <string name="geoHint">Click trackMyLocation button</string>
     <string name="message">We\'ll email your commitment plan to you, send you reminders and follow up to see how you got on</string>
-    <string-array name="habit_to_workOn_array">
-        <item>I ask questions that reflect an understanding of the other person\'s perspective</item>
-        <item>I give careful consideration to views that conflict with my own, without becoming defensive or reactive</item>
-    </string-array>
+    <string name="event">Add Event To Calender</string>
+    <string name="thankMessage">Thanks</string>
+    <string name="percent">% completed</string>
 </resources>

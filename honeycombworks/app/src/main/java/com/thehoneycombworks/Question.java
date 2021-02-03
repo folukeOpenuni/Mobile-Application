@@ -8,8 +8,6 @@ public class Question {
     private String answer = "";
     private String type = "String";
     private ArrayList<String> dropDownOption = new ArrayList<>();
-    Enum String, email, date, dropDown;
-
 
     public Question(String questionText, String questionNote, String answer, String type, ArrayList<String> dropDownOption) {
         this.questionText = questionText;

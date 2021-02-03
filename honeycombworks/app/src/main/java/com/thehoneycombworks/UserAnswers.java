@@ -13,35 +13,27 @@ public class UserAnswers {
     private String dateToWorkOnHabit;
     private String hindrance;
     private String toDo;
+    private String location;
 
     /**
      * empty user constructor
      */
     public UserAnswers() {
     }
-    public UserAnswers(String firstName, String lastName, String email, String habitToWorkOn,
-                       String situationToTry, String dateToWorkOnHabit, String hindrance, String toDo) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.habitToWorkOn = habitToWorkOn;
-        this.situationToTry = situationToTry;
-        this.dateToWorkOnHabit = dateToWorkOnHabit;
-        this.hindrance = hindrance;
-        this.toDo = toDo;
-    }
-    public UserAnswers(String id, String firstName, String lastName, String email, String habitToWorkOn,
-                       String situationToTry, String dateToWorkOnHabit, String hindrance, String toDo) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.habitToWorkOn = habitToWorkOn;
-        this.situationToTry = situationToTry;
-        this.dateToWorkOnHabit = dateToWorkOnHabit;
-        this.hindrance = hindrance;
-        this.toDo = toDo;
-    }
 
+    public UserAnswers(String id, String firstName, String lastName, String email,
+                       String habitToWorkOn, String situationToTry, String dateToWorkOnHabit, String hindrance, String toDo, String location) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.habitToWorkOn = habitToWorkOn;
+        this.situationToTry = situationToTry;
+        this.dateToWorkOnHabit = dateToWorkOnHabit;
+        this.hindrance = hindrance;
+        this.toDo = toDo;
+        this.location = location;
+    }
 
     public String getId() {
         return id;
@@ -133,5 +125,13 @@ public class UserAnswers {
 
     public void setToDo(String toDo) {
         this.toDo = toDo;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
     }
 }

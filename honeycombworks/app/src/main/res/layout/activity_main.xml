@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
         android:id="@+id/first_relative_layout">
 
      <TextView
@@ -20,16 +22,16 @@
          android:layout_centerHorizontal="true"
          android:text="@string/start_text" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txt"
-        android:id="@+id/txt1"
-        android:layout_below="@id/start_txt"
-        android:layout_marginTop="15dp"
-        android:layout_marginStart="10dp"/>
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start_txt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="11dp"
+            android:text="@string/txt" />
 
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/first_point"

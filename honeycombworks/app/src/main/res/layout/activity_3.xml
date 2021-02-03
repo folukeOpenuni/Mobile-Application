@@ -14,8 +14,20 @@
 
     <TextView
         android:id="@+id/extra_message"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/message"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/addEvent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"/>
+        android:text="@string/event"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/Bolt"/>
 
 </RelativeLayout>

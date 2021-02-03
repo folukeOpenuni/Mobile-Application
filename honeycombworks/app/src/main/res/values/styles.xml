@@ -2,8 +2,11 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/Indigo</item>
-
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/light</item>
+        <item name="colorPrimaryVariant">@color/Cream</item>
+        <item name="colorAccent">@color/Bolt</item>
+        <item name="color">@color/Ash</item>
     </style>
 
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#182635</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimaryDark">#e6e6e6</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="Bolt">#6fcdd1</color>
     <color name="colorPlum">#bd3b6f</color>
@@ -10,5 +10,7 @@
     <color name="Indigo">#182635</color>
     <color name="Ash">#e6e6e6</color>
     <color name="Cream">#f4f4f2</color>
+    <color name="light">#101923</color>
+    <color name="indicoWhite">#283f58</color>
 
 </resources>
